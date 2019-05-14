@@ -30,12 +30,6 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!-- А это "стартер", включающий Spring Security -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
-
         <!-- А это для подключения к БД, как ни странно, здесь Hibernate  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
