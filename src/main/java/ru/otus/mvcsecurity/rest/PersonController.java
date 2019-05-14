@@ -26,11 +26,4 @@ public class PersonController {
         model.addAttribute("persons", persons);
         return "list";
     }
-
-    @GetMapping("/person")
-    public String personPage(@RequestParam("id") int id, Model model) {
-        Person person = repository.findById(id).orElseThrow(NotFoundException::new);
-        model.addAttribute("person", person);
-        return "person";
-    }
 }
